@@ -36,12 +36,6 @@ entry2 = tk.Entry(window)
 entry2.grid(row=2,column=1)
 
 
-
-# def click(value):
-#     entry.insert(tk.END,value)
-
-# no need for this as we are not using lambda = click
-
 def delete():
 
     entry.delete(0,tk.END)
@@ -67,7 +61,6 @@ def read():
 
     line = f.readline()
 
-# remember its readline not lines if you want readlines then add data = line[0].split","
 
     f.close()
 
